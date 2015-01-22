@@ -10,6 +10,8 @@ V1.0
 #ifndef rf_outlet_control_h
 #define rf_outlet_control_h
 
+#include "application.h"
+
 class Remote
 {
   public:
@@ -19,11 +21,11 @@ class Remote
     void sendLong(boolean final);
 
   private:
-    #define TIME_SHORT = 564;
-    #define SHORT_BREAK = 1798;
-    #define TIME_LONG = 1798;
-    #define LONG_BREAK  = 564;
-    #define TIME_DELAY = 10592;
+    int TIME_SHORT = 564;
+    int SHORT_BREAK = 1798;
+    int TIME_LONG = 1798;
+    int LONG_BREAK  = 564;
+    int TIME_DELAY = 10592;
     int _pin;
     void sendPreamble();
     void sendOnOffSignal(boolean _state);

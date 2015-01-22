@@ -60,7 +60,7 @@ sendShort(false);
 sendShort(false);
 }
 
-void Remode::sendOnOffSignal(boolean _state){
+void Remote::sendOnOffSignal(boolean _state){
     if(_state){
         //Long
         sendLong(false);
@@ -141,7 +141,7 @@ void Remote::sendSignal(char code, boolean state){
   //ON/OFF
   sendOnOffSignal(state);
   //IDKey
-  sendIDKey(code);
+  sendID(code);
   //Delay
   delayMicroseconds(TIME_DELAY);
 
