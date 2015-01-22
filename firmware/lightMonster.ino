@@ -1,3 +1,8 @@
+/*
+This code allows you to control Home Depot remote outlets.
+Jason S (screamingcities) 2015
+Version 1.0
+*/
 
 #include "rf_outlet_control.h"
 
