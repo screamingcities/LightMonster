@@ -6,7 +6,7 @@ Version 1.0
 
 #include "rf_outlet_control.h"
 
-int outPin = D1;
+#define outPin D1
 Remote remote(outPin);
 
 void setup() {
