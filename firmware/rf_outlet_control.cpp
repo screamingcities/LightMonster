@@ -1,6 +1,7 @@
 /*This library is designed to control the remote RF Outlets sold in places like
 Home Depot around the holidays. Currently covers Channels A-F. Base pulse
-methods exposed in case others are needed.
+methods exposed in case others are needed. The control is done with inexpensive
+transmitters (315mhz) like the FS1000A.
 
 Created by Jason S. (screamingcities) 2015
 
