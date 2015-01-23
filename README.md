@@ -8,7 +8,7 @@ Add library to your code #include "rf_outlet_control.h"
 Add an instance of the Remote class, then call .sendSignal. sendSignal asks for a char (A-F) to tell it what channel to send
 and a boolean to tell it to send either an On code or an Off code.
 
-Example: remote.sendSignal('A', true) woul;d send an On code to Channel A.
+Example: remote.sendSignal('B', true) woul;d send an On code to Channel B.  (Cureently the Library has channels B-F should have A soon.)
 
 The codes are comprissed of short or long HIGH pulses, followed by the opposite in a LOW pulse 
 (ie Short HIGH long LOW, Long HIGH, short LOW, etc...) and generally consist of a preamble, a section indicating Off, or 
